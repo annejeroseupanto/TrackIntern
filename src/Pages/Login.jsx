@@ -67,7 +67,7 @@ const Login = () => {
                 {error && <p style={{ color: 'red' }}>{error}</p>}
 
                 <button className='back'
-                    onClick={() => navigate("/Register")}>Dont have an account yet?<br></br> Sign up here!!!</button>
+                    onClick={() => navigate("/SignUp")}>Dont have an account yet?<br></br> Sign up here!!!</button>
             </div>
         </div>
     );
